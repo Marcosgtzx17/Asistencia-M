@@ -4,7 +4,7 @@ import java.util.*;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
-import org.springframework.stereotype.Service;
+
 import esfe.com.Asistencia.Modelos.DocenteGrupo;
 
 public interface IDocenteGrupoService {

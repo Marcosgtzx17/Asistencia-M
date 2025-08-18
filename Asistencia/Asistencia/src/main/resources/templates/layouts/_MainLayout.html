@@ -93,8 +93,8 @@ xmlns:th="http://www.thymeleaf.org"
                 <div class="collapse" id="dashboard">
                   <ul class="nav nav-collapse">
                     <li>
-                      <a href="../demo1/index.html">
-                        <span class="sub-item">Dashboard 1</span>
+                         <a th:href="@{/}">
+                        <span class="sub-item">Dashboard</span>
                       </a>
                     </li>
                   </ul>
@@ -120,14 +120,21 @@ xmlns:th="http://www.thymeleaf.org"
                       </a>
                     </li>
                     <li>
-                      <a href="components/buttons.html">
-                        <span class="sub-item">grupo</span>
+                      <li>
+                      <a th:href="@{/grupos}">
+                        <span class="sub-item">Grupos</span>
                       </a>
                     </li>
                     <li>
-                      <a href="components/gridsystem.html">
-                        <span class="sub-item">Docente</span>
+                      <a th:href="@{/docentes}">
+                        <span class="sub-item">Docentes</span>
                       </a>
+                    </li>
+                     <li>
+                      <a th:href="@{/asignaciones}">
+                        <span class="sub-item">Asignaciones</span>
+                      </a>
+                    </li>
                     </li>
                   </ul>
                 </div>
